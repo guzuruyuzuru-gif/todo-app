@@ -5,6 +5,8 @@ export default defineConfig({
   base: '/todo-app/',
 
   build: {
+    outDir: 'docs',
+
     rollupOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
