@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOアプリ - サインイン</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>TODO APP</h1>
+    <p>アカウントにサインインしてください</p>
+
+    <form id="loginForm">
+      <input
+        type="email"
+        id="email"
+        placeholder="メールアドレス"
+        required
+      >
+
+      <input
+        type="password"
+        id="password"
+        placeholder="パスワード"
+        required
+      >
+
+      <button type="submit">サインイン</button>
+    </form>
+
+    <p id="errorMessage"></p>
+  </div>
+
+  <script type="module" src="./src/sign-in.js"></script>
+
+</body>
+</html>
